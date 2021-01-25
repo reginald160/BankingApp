@@ -1,0 +1,45 @@
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csprojAssemblyReference.cache
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfoInputs.cache
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfo.cs
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CoreCompileInputs.cache
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.deps.json
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.json
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.dev.json
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.genruntimeconfig.cache
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Environment\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CopyComplete
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.deps.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.dev.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csprojAssemblyReference.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfo.cs
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CopyComplete
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.genruntimeconfig.cache
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.deps.json
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.json
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.runtimeconfig.dev.json
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csprojAssemblyReference.cache
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfoInputs.cache
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.AssemblyInfo.cs
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CoreCompileInputs.cache
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.csproj.CopyComplete
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.dll
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.pdb
+F:\c#\PP\BankingApp\EasyBanking.DataAccess\obj\Debug\netcoreapp3.1\EasyBanking.DataAccess.genruntimeconfig.cache

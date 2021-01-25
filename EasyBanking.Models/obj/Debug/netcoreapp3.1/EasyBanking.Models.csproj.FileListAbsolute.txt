@@ -1,0 +1,36 @@
+C:\Environment\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.deps.json
+C:\Environment\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.json
+C:\Environment\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.dev.json
+C:\Environment\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Environment\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csprojAssemblyReference.cache
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfoInputs.cache
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfo.cs
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csproj.CoreCompileInputs.cache
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Environment\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.genruntimeconfig.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.deps.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.dev.json
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csprojAssemblyReference.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfoInputs.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfo.cs
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csproj.CoreCompileInputs.cache
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.dll
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+C:\Users\Codebits Academy\Desktop\.net core\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.genruntimeconfig.cache
+F:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.deps.json
+F:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.json
+F:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.dev.json
+F:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+F:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csprojAssemblyReference.cache
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfoInputs.cache
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfo.cs
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csproj.CoreCompileInputs.cache
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.dll
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.genruntimeconfig.cache
