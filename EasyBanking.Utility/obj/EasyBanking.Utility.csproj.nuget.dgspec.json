@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "F:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {}
+    "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {}
   },
   "projects": {
-    "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
+    "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
         "projectName": "EasyBanking.DataAccess",
-        "projectPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-        "outputPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Codebits Academy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IFEANYI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Codebits Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -30,10 +26,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
-                "projectPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
+              "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
+                "projectPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
               }
             }
           }
@@ -46,7 +41,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -91,26 +85,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
+    "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
         "projectName": "EasyBanking.Models",
-        "projectPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
-        "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-        "outputPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.Models\\obj\\",
+        "projectPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
+        "packagesPath": "C:\\Users\\Codebits Academy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IFEANYI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Codebits Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -121,7 +111,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -133,7 +122,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -182,26 +170,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {
+    "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj",
         "projectName": "EasyBanking.Utility",
-        "projectPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj",
-        "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-        "outputPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\obj\\",
+        "projectPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj",
+        "packagesPath": "C:\\Users\\Codebits Academy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.Utility\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\IFEANYI\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Codebits Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -212,10 +196,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
-                "projectPath": "F:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj"
+              "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Codebits Academy\\Desktop\\.net core\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj"
               }
             }
           }
@@ -228,7 +211,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
@@ -269,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

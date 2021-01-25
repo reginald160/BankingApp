@@ -26,23 +26,29 @@ namespace EasyBanking.Services.Mapper
                 .ForMember(m => m.CreatedDate, o => o.Ignore())
                 .ForMember(m => m.Id, o => o.Ignore());
             CreateMap<Employee, DeleteEmployeeViewModel>().ReverseMap();
+
             CreateMap<Employee, EmployeeIndexViewModel>().ReverseMap();
-            CreateMap<Employee, EmployeeEditViewModel>().ReverseMap()
-                 .ForMember(m => m.Id, o => o.Ignore());
+
+            CreateMap<Employee, EmployeeEditViewModel>().ReverseMap();
+
+            CreateMap<Employee, EmployeeProfileViewModel>().ReverseMap()
+                 .ForMember(m => m.Deleted, o => o.Ignore())
+                .ForMember(m => m.Id, o => o.Ignore());
 
 
-
-
-            CreateMap<Employee, EmployeeProfileViewModel>().ReverseMap();
-
-           
 
 
             CreateMap<Customer, CreateCustomerViewModel>().ReverseMap()
                .ForMember(m => m.CreatedDate, o => o.Ignore())
+                .ForMember(m => m.EmployeeId, o => o.Ignore())
+                 .ForMember(m => m.UserLoginId, o => o.Ignore())
+                 .ForMember(m => m.ManagerId, o => o.Ignore())
                .ForMember(m => m.Id, o => o.Ignore());
+
             CreateMap<Customer, DeleteCustomerViewModel>().ReverseMap();
+
             CreateMap<Customer, CustomerIndexViewModel>().ReverseMap();
+
             CreateMap<Customer, CustomerEditViewModel>().ReverseMap()
                 .ForMember(m => m.Deleted, o => o.Ignore())
                 .ForMember(m => m.Id, o => o.Ignore());
