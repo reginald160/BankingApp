@@ -21,7 +21,8 @@ namespace EasyBanking.Services.Repository
         }
         public async Task CreateAsync(Customer newCustomer)
         {
-
+            newCustomer.IsNewRecord = Universe.NewRecord;
+            newCustomer.AccountNumber = LogicHelper.AccountNumberGenerator();
             await _context.Customers.AddAsync(newCustomer);
             await _context.SaveChangesAsync();
         }

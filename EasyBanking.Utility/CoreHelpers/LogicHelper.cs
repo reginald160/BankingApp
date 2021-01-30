@@ -21,15 +21,7 @@ namespace EasyBanking.Utility.CoreHelpers
         public const string ColorGrey = "#808080";
         public static ApplicationDbContext context;
         //private readonly ApplicationDbContext _context;
-        public static long AccountNumberGenerator()
-        {
-            Random random = new Random();
-            long newAccountNumber = random.Next(32000000, 33000000);
-
-            return newAccountNumber;
-            
-           
-        }
+      
         public static string imagepath (IFormFile model)
         {
             var imageupload = new Imageupload(_hostEnvironment);
@@ -42,6 +34,23 @@ namespace EasyBanking.Utility.CoreHelpers
             var imageupload = new Imageupload(_hostEnvironment);
           var result =  imageupload.uploadimage(model, foldername, imageUrl, webRootPath);
             return result;
+        }
+
+        public static long AccountNumberGenerator()
+        {
+            var random = new Random(System.DateTime.Now.Millisecond);
+            int generatedRandNum = random.Next(1, 505020040);
+
+            var generatedRandNumToString = String.Format("{0:D9}", generatedRandNum);
+            const int MaxLength = 8;
+
+            if (generatedRandNumToString.Length > MaxLength)
+                generatedRandNumToString = generatedRandNumToString.Substring(1, MaxLength);
+
+            var stringConcat = "5" + generatedRandNumToString + "6";
+            long accountNumber = long.Parse(stringConcat);
+
+            return accountNumber;
         }
         public static long GetRandomNumb()
         {

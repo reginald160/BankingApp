@@ -16,6 +16,7 @@ namespace EasyBanking.Utility.CoreHelpers
         public const string ButtonGreen = "btn-primary";
         public const string ButtonBlue = "btn-secondary";
         private static string result;
+        public static bool NewRecord = true;
         public static string MyProperty { get; set; }
 		public static string AdminPass {
             get

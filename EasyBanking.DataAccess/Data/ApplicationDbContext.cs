@@ -15,11 +15,11 @@ namespace EasyBanking.DataAccess
             : base(options)
         {
         }
-        protected override void OnModelCreating(ModelBuilder builder)
-        {
-            builder.Seed();
-            base.OnModelCreating(builder);
-        }
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+        //    //builder.Seed();
+        //    base.OnModelCreating(builder);
+        //}
         public DbSet<Account> Accounts { get; set; }
         public DbSet<AccountStatus> AccountStatuses { get; set; }
         public DbSet<AccountType> AccountTypes { get; set; }

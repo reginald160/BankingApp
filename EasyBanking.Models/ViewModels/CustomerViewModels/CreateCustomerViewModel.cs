@@ -68,18 +68,16 @@ namespace EasyBanking.Models.ViewModels.CustomerViewModels
         public IFormFile MandatePath { get; set; }
         public Guid UserLoginId { get; set; }
 
-        [ForeignKey("UserLoginId")]
         public virtual UserLogins UserLogin { get; set; }
 
         public Guid EmployeeId { get; set; }
 
-        [ForeignKey("EmployeeId")]
-        public virtual Employee AccountOfficer { get; set; }
+        //public virtual Employee AccountOfficer { get; set; }
 
         public Guid ManagerId { get; set; }
 
-        [ForeignKey("ManagerId")]
-        public virtual Employee BranchManager { get; set; }
+     
+        //public virtual Employee BranchManager { get; set; }
         public Gender Gender { get; set; }
 
 

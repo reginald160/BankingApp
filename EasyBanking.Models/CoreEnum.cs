@@ -9,7 +9,7 @@ namespace EasyBanking.Models
     {
         public enum AccountTypeDescription
         {
-            Savings, Current, Fx, Kiddies
+            Savings, Current, Fx, Kiddies, Dom
         }
         public enum AccountStatusDescription
         {
@@ -36,7 +36,10 @@ namespace EasyBanking.Models
 
    
         }
-
+        public enum TransactionCategory
+        {
+            Debit, Credit
+        }
         public enum TransactionTypeDescription
         {
             Deposit, Withdraw

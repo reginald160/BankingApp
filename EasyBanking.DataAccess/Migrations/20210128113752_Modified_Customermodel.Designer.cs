@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EasyBanking.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210120113333_Numbersequence_SeedData")]
-    partial class Numbersequence_SeedData
+    [Migration("20210128113752_Modified_Customermodel")]
+    partial class Modified_Customermodel
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -101,10 +101,10 @@ namespace EasyBanking.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("AccountStatusId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("AccountStatus")
+                        .HasColumnType("int");
 
-                    b.Property<Guid>("AccountTypeId")
+                    b.Property<Guid?>("AccountTypeId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("CurrentBallance")
@@ -113,12 +113,10 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
 
-                    b.Property<Guid>("SavingsInterestRateId")
+                    b.Property<Guid?>("SavingsInterestRateId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AccountStatusId");
 
                     b.HasIndex("AccountTypeId");
 
@@ -153,8 +151,14 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<int>("AccountTypeDescription")
                         .HasColumnType("int");
 
+                    b.Property<string>("Code")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -188,8 +192,8 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("DOB")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DOB")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
@@ -197,13 +201,16 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("EmployeeId")
+                    b.Property<Guid?>("EmployeeId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
+
+                    b.Property<int>("Gender")
+                        .HasColumnType("int");
 
                     b.Property<string>("IdentificationNum")
                         .HasColumnType("nvarchar(max)");
@@ -217,7 +224,7 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("ManagerId")
+                    b.Property<Guid?>("ManagerId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("MandateUrl")
@@ -232,7 +239,7 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("UserLoginId")
+                    b.Property<Guid?>("UserLoginId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -252,20 +259,34 @@ namespace EasyBanking.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("AccountId")
+                    b.Property<decimal>("AccountBalance")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<Guid?>("AccountId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid>("CustomerId")
+                    b.Property<int>("AccountStatus")
+                        .HasColumnType("int");
+
+                    b.Property<Guid?>("AccountTypeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("CustomerId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
 
+                    b.Property<Guid?>("SavingsInterestRateId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("AccountId");
+                    b.HasIndex("AccountTypeId");
 
                     b.HasIndex("CustomerId");
+
+                    b.HasIndex("SavingsInterestRateId");
 
                     b.ToTable("CustomersAccounts");
                 });
@@ -275,6 +296,9 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("ActivityStatus")
+                        .HasColumnType("bit");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
@@ -288,10 +312,8 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
 
-                    b.Property<string>("Designation")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(100)")
-                        .HasMaxLength(100);
+                    b.Property<int>("Designation")
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
@@ -620,17 +642,6 @@ namespace EasyBanking.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("NumberSequences");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("bd5d96c2-586a-425c-9c15-9f18ab4b24e5"),
-                            Deleted = false,
-                            LastNumber = 0,
-                            Module = "",
-                            NumberSequenceName = "",
-                            Prefix = ""
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -770,59 +781,43 @@ namespace EasyBanking.DataAccess.Migrations
 
             modelBuilder.Entity("EasyBanking.Models.CoreBanking.Account", b =>
                 {
-                    b.HasOne("EasyBanking.Models.CoreBanking.AccountStatus", "AccountStatus")
-                        .WithMany()
-                        .HasForeignKey("AccountStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("EasyBanking.Models.CoreBanking.AccountType", "AccountType")
                         .WithMany()
-                        .HasForeignKey("AccountTypeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AccountTypeId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.SavingsInterestRate", "SavingsInterestRate")
                         .WithMany()
-                        .HasForeignKey("SavingsInterestRateId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("SavingsInterestRateId");
                 });
 
             modelBuilder.Entity("EasyBanking.Models.CoreBanking.Customer", b =>
                 {
                     b.HasOne("EasyBanking.Models.CoreBanking.Employee", "AccountOfficer")
                         .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EmployeeId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.Employee", "BranchManager")
                         .WithMany()
-                        .HasForeignKey("ManagerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ManagerId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.UserLogins", "UserLogin")
                         .WithMany()
-                        .HasForeignKey("UserLoginId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserLoginId");
                 });
 
             modelBuilder.Entity("EasyBanking.Models.CoreBanking.CustomerAccount", b =>
                 {
-                    b.HasOne("EasyBanking.Models.CoreBanking.Account", "Account")
+                    b.HasOne("EasyBanking.Models.CoreBanking.AccountType", "AccountType")
                         .WithMany()
-                        .HasForeignKey("AccountId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AccountTypeId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
+
+                    b.HasOne("EasyBanking.Models.CoreBanking.SavingsInterestRate", "SavingsInterestRate")
+                        .WithMany()
+                        .HasForeignKey("SavingsInterestRateId");
                 });
 
             modelBuilder.Entity("EasyBanking.Models.CoreBanking.FailedTransactionError", b =>

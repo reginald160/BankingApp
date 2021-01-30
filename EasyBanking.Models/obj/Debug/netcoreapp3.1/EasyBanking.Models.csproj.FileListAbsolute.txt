@@ -34,3 +34,15 @@ F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Model
 F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.dll
 F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.pdb
 F:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.genruntimeconfig.cache
+E:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.deps.json
+E:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.json
+E:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.runtimeconfig.dev.json
+E:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.dll
+E:\c#\PP\BankingApp\EasyBanking.Models\bin\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csprojAssemblyReference.cache
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfoInputs.cache
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.AssemblyInfo.cs
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.csproj.CoreCompileInputs.cache
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.dll
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.pdb
+E:\c#\PP\BankingApp\EasyBanking.Models\obj\Debug\netcoreapp3.1\EasyBanking.Models.genruntimeconfig.cache

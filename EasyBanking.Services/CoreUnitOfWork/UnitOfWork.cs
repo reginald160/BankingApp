@@ -4,6 +4,7 @@ using EasyBanking.Services.Repository;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EasyBanking.Services.CoreUnitOfWork
 {
@@ -17,6 +18,10 @@ namespace EasyBanking.Services.CoreUnitOfWork
             employee = new EmployeeServices(_context);
             CoreServices = new CoreService(_context);
             customer = new CustomerServices(_context);
+            accountServices = new AccountServices(_context);
+            bankingHallServices = new BankingHallServices(_context);
+            interestRateServices = new InterestRateServices(_context);
+            
 
         }
 
@@ -24,10 +29,19 @@ namespace EasyBanking.Services.CoreUnitOfWork
         public ICustomerServices customer { get; private set; }
 
         public ICoreServices CoreServices { get; private set; }
+        public IAccountServices accountServices { get; private set; }
+        public IBankingHallServices bankingHallServices { get; private set; }
+
+        public IInterestrateServices interestRateServices { get; private set; }
 
         public void Dispose()
         {
             _context.Dispose();
+        }
+
+        public async Task Save()
+        {
+            await _context.SaveChangesAsync();
         }
     }
 }

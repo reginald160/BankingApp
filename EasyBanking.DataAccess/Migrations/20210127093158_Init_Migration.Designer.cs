@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EasyBanking.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210123153816_Added_DesignitionTo_Employee")]
-    partial class Added_DesignitionTo_Employee
+    [Migration("20210127093158_Init_Migration")]
+    partial class Init_Migration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -188,8 +188,8 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("DOB")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("DOB")
+                        .HasColumnType("datetime2");
 
                     b.Property<bool>("Deleted")
                         .HasColumnType("bit");
@@ -197,13 +197,16 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("EmployeeId")
+                    b.Property<Guid?>("EmployeeId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("nvarchar(50)")
                         .HasMaxLength(50);
+
+                    b.Property<string>("FullName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Gender")
                         .HasColumnType("int");
@@ -220,7 +223,7 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("ManagerId")
+                    b.Property<Guid?>("ManagerId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("MandateUrl")
@@ -235,7 +238,7 @@ namespace EasyBanking.DataAccess.Migrations
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("UserLoginId")
+                    b.Property<Guid?>("UserLoginId")
                         .HasColumnType("uniqueidentifier");
 
                     b.HasKey("Id");
@@ -295,8 +298,7 @@ namespace EasyBanking.DataAccess.Migrations
                         .HasColumnType("bit");
 
                     b.Property<int>("Designation")
-                        .HasColumnType("int")
-                        .HasMaxLength(100);
+                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
@@ -625,17 +627,6 @@ namespace EasyBanking.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("NumberSequences");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = new Guid("c06ff54b-c717-4be1-b717-88afa6c51863"),
-                            Deleted = false,
-                            LastNumber = 0,
-                            Module = "",
-                            NumberSequenceName = "",
-                            Prefix = ""
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -798,21 +789,15 @@ namespace EasyBanking.DataAccess.Migrations
                 {
                     b.HasOne("EasyBanking.Models.CoreBanking.Employee", "AccountOfficer")
                         .WithMany()
-                        .HasForeignKey("EmployeeId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EmployeeId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.Employee", "BranchManager")
                         .WithMany()
-                        .HasForeignKey("ManagerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ManagerId");
 
                     b.HasOne("EasyBanking.Models.CoreBanking.UserLogins", "UserLogin")
                         .WithMany()
-                        .HasForeignKey("UserLoginId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserLoginId");
                 });
 
             modelBuilder.Entity("EasyBanking.Models.CoreBanking.CustomerAccount", b =>

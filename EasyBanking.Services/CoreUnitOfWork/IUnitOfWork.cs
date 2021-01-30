@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EasyBanking.Services.CoreUnitOfWork
 {
@@ -10,6 +11,10 @@ namespace EasyBanking.Services.CoreUnitOfWork
         IEmployeeServices employee { get; }
         ICustomerServices customer { get; }
         ICoreServices CoreServices { get; }
-        
+        IAccountServices accountServices { get; }
+        IBankingHallServices bankingHallServices { get; }
+        IInterestrateServices interestRateServices { get; }
+        Task Save();
+
     }
 }

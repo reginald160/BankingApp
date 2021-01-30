@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EasyBanking.Services.IRepository
 {
@@ -15,9 +16,9 @@ namespace EasyBanking.Services.IRepository
 
         T GetFirstOrDefault(Expression<Func<T, bool>> filter = null, string includeProperties = null);
 
-        void Add(T entity);
+        Task Add(T entity);
 
-        void Remove(Guid id);
-        void Remove(T entity);
+        Task Remove(Guid id);
+        Task Remove(T entity);
     }
 }

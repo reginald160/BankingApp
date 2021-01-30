@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EasyBanking.Services.Repository
 {
@@ -22,9 +23,10 @@ namespace EasyBanking.Services.Repository
             this.dbSet = context.Set<T>();
         }
 
-        public void Add(T entity)
+        public async Task Add(T entity)
         {
-            dbSet.Add(entity);
+          await  dbSet.AddAsync(entity);
+
         }
 
         public T Get(Guid id)
@@ -78,15 +80,16 @@ namespace EasyBanking.Services.Repository
 
         }
 
-        public void Remove(Guid id)
+        public async Task Remove(Guid id)
         {
-            T entityToRemove = dbSet.Find(id);
-            Remove(entityToRemove);
+            T entityToRemove = await dbSet.FindAsync(id);
+           await Remove(entityToRemove);
         }
 
-        public void Remove(T entity)
+        public async Task Remove(T entity)
         {
-            dbSet.Remove(entity);
+          dbSet.Remove(entity);
+           
         }
     }
 }  

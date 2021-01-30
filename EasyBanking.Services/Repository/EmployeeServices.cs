@@ -22,8 +22,9 @@ namespace EasyBanking.Services.Repository
             _context = context;
         }
         public async Task CreateAsync(Employee newEmployee)
-        {       
-            
+        {
+
+            newEmployee.IsNewRecord = Universe.NewRecord;
             await _context.Employees.AddAsync(newEmployee);
             await _context.SaveChangesAsync();
         }
