@@ -5854,11 +5854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\c#\\PP\\BankingApp\\EasyBanking.Services\\EasyBanking.Services.csproj",
+      "projectUniqueName": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Services\\EasyBanking.Services.csproj",
       "projectName": "EasyBanking.Services",
-      "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Services\\EasyBanking.Services.csproj",
+      "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Services\\EasyBanking.Services.csproj",
       "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Services\\obj\\",
+      "outputPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5879,14 +5879,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
-              "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj"
+            "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj"
             },
-            "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
-              "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
+            "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
+              "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
             },
-            "E:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {
-              "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj"
+            "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj": {
+              "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Utility\\EasyBanking.Utility.csproj"
             }
           }
         }

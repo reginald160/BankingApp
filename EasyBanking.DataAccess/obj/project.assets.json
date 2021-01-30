@@ -5799,11 +5799,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
       "projectName": "EasyBanking.DataAccess",
-      "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
+      "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.DataAccess\\EasyBanking.DataAccess.csproj",
       "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-      "outputPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -5824,8 +5824,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
-              "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
+            "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
+              "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vtHRo8MvBEXEQPPJzBEqGR0OCgFLOTKNyw0bzQcCNibDYhoFYhkRN+XQ3kBBztMxjVyze2R+ZweToh70RzBbQQ==",
+  "dgSpecHash": "XC/LrOSW0RyeWGkEqlhzIytyHwdCY4HmY4+Fkj22bpliJKk8tWILdCnpdq6KXnHW7G7Q+TpbJwGKxz0mvenTJw==",
   "success": true,
-  "projectFilePath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
+  "projectFilePath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IFEANYI\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\IFEANYI\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {}
+    "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {}
   },
   "projects": {
-    "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
+    "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
+        "projectUniqueName": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
         "projectName": "EasyBanking.Models",
-        "projectPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
+        "projectPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\EasyBanking.Models.csproj",
         "packagesPath": "C:\\Users\\IFEANYI\\.nuget\\packages\\",
-        "outputPath": "E:\\c#\\PP\\BankingApp\\EasyBanking.Models\\obj\\",
+        "outputPath": "C:\\Users\\IFEANYI\\source\\repos\\BankingApp\\EasyBanking.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
